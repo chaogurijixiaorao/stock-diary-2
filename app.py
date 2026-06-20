@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 
 # ================= 把你的 DeepSeek Key 填在这里 =================
-DEEPSEEK_API_KEY = "DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]"
+DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]
 # =================================================================
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
